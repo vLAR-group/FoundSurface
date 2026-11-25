@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# weights (download separately, see README)
+*.pt
+*.pth
+*.ckpt
+
+# local training outputs
+ckpt/
+
+# extension build artifacts
+build/
+*.so
+
+# outputs
+pred_dist/
+gt_dist/
+pred_preview/
+*_results_net.json
+*_per_view_net.json

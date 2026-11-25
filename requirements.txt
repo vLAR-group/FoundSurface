@@ -1,0 +1,15 @@
+# Runtime dependencies.
+# torch/torchvision, spconv and pytorch3d are installed separately (see README)
+# because they need CUDA-specific wheels/builds.
+numpy<2
+Pillow
+einops
+opencv-python
+scipy
+tqdm
+matplotlib
+seaborn
+imageio
+open3d==0.19.0
+roma==1.5.3
+timm
