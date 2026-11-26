@@ -4,7 +4,10 @@
 Example
 -------
     python tools/summarize_results.py \
-        outputs/scannetpp/distance/Scannetpp_Raylet_fit_top1_view50/test --split test
+        /path/to/checkpoint_dir/Scannetpp_Raylet_fit_top1_view50/test --split test
+
+`/path/to/checkpoint_dir` is `dirname(--model_path)` used in the test command.
+Use `--method foundsurface` if the JSON contains several method entries.
 
 Each scene directory contains `<split>_results_net.json`, mapping a method name
 to its metrics. Values are averaged over scenes (one value per scene), which is
@@ -65,7 +68,7 @@ def main():
                 present[m] += 1
                 line += f"{float(values[m]):>16.5f}"
             else:
-                line += f"{'-':>14}"
+                line += f"{'-':>16}"
         print(line)
 
     print("-" * (28 + 16 * len(metrics)))

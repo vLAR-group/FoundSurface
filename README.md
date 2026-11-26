@@ -4,7 +4,7 @@
     <strong>NeurIPS 2026</strong>
   </p>
   <p align="center">
-    <a href="#"><img src="https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b.svg" alt="arXiv (coming soon)"></a>
+    <a href="https://arxiv.org/abs/2611.34128"><img src="https://img.shields.io/badge/arXiv-2611.34128-b31b1b.svg" alt="arXiv"></a>
     <a href="https://vlar-group.github.io/FoundSurface.html"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
     <a href="https://vlar-group.github.io/FoundSurface/static/paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-green" alt="Paper"></a>
     <a href="https://github.com/vLAR-group/FoundSurface"><img src="https://img.shields.io/badge/Code-GitHub-black" alt="Code"></a>
