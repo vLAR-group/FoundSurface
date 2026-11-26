@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">FoundSurface</h1>
+  <h1 align="center">FoundSurface - <span style="color: #dc2626;">A Foundation Surface Reconstruction Model</span> </h1>
   <p align="center">
     <strong>NeurIPS 2026</strong>
   </p>
